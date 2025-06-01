@@ -1,6 +1,10 @@
-<h4>Polyfills</h4>Add commentMore actions
+<h4>Polyfills</h4>
+<ol>
+<li>Promise.all</li>
+<li>Promise.any</li>
+</ol>
 <h4>Spot The Bugs in Code</h4>
-<h4>Comapnies Previous Asked Questions</h4>
+<h4>Companies Previous Asked Questions</h4>
 <ol>
 <li>Highest Commodity</li>
 </ol>
