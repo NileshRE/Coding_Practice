@@ -7,6 +7,8 @@
 <h4>Companies Previous Asked Questions</h4>
 <ol>
 <li>Highest Commodity</li>
+<li>Currying</li>
+<li>Pub-Sub Pattern</li>
 </ol>
 
 <h4>JS Coding Practices</h4>
@@ -22,4 +24,3 @@
 <li>Debouncing</li>
 <li>Count By</li>
 </ol>
-<ul>
