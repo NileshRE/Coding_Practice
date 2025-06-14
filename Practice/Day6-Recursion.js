@@ -38,3 +38,10 @@ function powerOfTwo(n) {
   else if (n < 1 || n % 2 != 0) return false;
   return powerOfTwo(n / 2);
 }
+
+// Check if a number is Fibonacci series num
+
+function fibonacci(n) {
+  if (n <= 1) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
