@@ -11,12 +11,6 @@
 <li>Stacks</li>
 </ol>
 <br />
-<h4>Utility Functions</h4>
-<ol>
-<li>Debouncing</li>
-<li>Mortgage Calculator</li>
-<li>Type utilities II</li>
-</ol>
 <br />
 <h4>Polyfills</h4>
 <ol>
@@ -31,7 +25,7 @@
 <li>Pub-Sub Pattern</li>
 </ol>
 <br />
-<h4>Spot The Bugs in Code</h4>
+<h4>Spot The Bugs in Code from Ui.dev newsletters</h4>
 <p>Collection of questions where small concepts matters and mistake happens!</p>
 
 <h4>90 days Challenge started...!</h4>
