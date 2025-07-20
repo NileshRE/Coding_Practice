@@ -43,7 +43,7 @@ function optimizedHasCycle(head) {
 function isLinkedListPalindrome(head) {
   // Get the middle of Linked list
   let slow = head;
-  let fast = head.next;
+  let fast = head;
   while (fast && fast.next) {
     slow = head.next;
     fast = head.next.next;
@@ -61,7 +61,7 @@ function isLinkedListPalindrome(head) {
   let firstList = head;
   let secondList = prev; // as we reversed the linked list, last node was prev and it has become head of 2nd half
   while (secondList) {
-    if (firstList.value !== secondList.value) {
+    if (firstList.val !== secondList.val) {
       return false;
     }
     firstList = firstList.next;
