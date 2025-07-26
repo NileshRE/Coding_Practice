@@ -41,6 +41,8 @@ function removeLinkedListElements(head, val) {
 
 //Remove nth node from the end of Linked list
 
+// 2 pass approach
+
 function removeNthFromEnd(head, n) {
   let sentinelNode = new LinkedNode(); // Initializing a dummy node
   sentinelNode.next = head;
@@ -58,4 +60,25 @@ function removeNthFromEnd(head, n) {
   }
   prev.next = prev.next.next; // Break the current link and assign previous element next to element next to deleted element
   return sentinelNode.next; // return head;
+}
+
+// 1 pass approach
+
+function removeNthFromEnd(head, n) {
+  let sentinelNode = new LinkedNode();
+  sentinelNode.next = head;
+  let first = sentinelNode;
+  // loop till n nodes
+  for (let i = 0; i < n; i++) {
+    first = first.next;
+  }
+  let second = sentinelNode;
+  // Start looping from n to last node
+  while (first.next) {
+    second = second.next;
+    first = first.next;
+  }
+  // Deleting the returned node from 2nd loop
+  second.next = second.next.next;
+  return sentinelNode.next;
 }
