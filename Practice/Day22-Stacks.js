@@ -1,3 +1,9 @@
+// Input: s = "(()())(())"
+// Output: "()()()"
+// Explanation:
+// The input string is "(()())(())", with primitive decomposition "(()())" + "(())".
+// After removing outer parentheses of each part, this is "()()" + "()" = "()()()".
+
 function removeOutermostParentheses(s) {
   let stack = [];
   let ans = "";
